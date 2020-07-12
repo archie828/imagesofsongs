@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Songs Studio</title>
+	<link rel="stylesheet" type="text/css" href="musicplayer.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+  <link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="header">
+<div class="left-bar">
+    
+    
+        <!-- musicplayer-logo and dropdown-list -->
+     	<div class="logo">
+
+     		<div class="logo-image">
+             <img src="songimages/mpicon1.jpg">
+        </div>
+
+     		</div>
+         
+<!-- musicplayer-name -->
+    	
+
+     	<!-- <div class="big-s"><p>S</p></div> -->
+
+         <span class="big-s">
+             S
+         </span>
+         <span class="small">
+             <p>ongs<br>tudio</p>
+         </span>
+        
+        
+        
+       <!-- favourites -->
+       <span class="fav">
+        	<a href="#">Favourites&nbsp;<i class="fa fa-heart"></i></a>
+       </span>
+    </div>
+
+
+
+<div class="right-bar">
+
+    
+      <!-- search-bar -->
+        <div class="search-bar">
+
+        	<form class="search-bar-form">
+               <input type="text" placeholder="Artists, Songs or podcasts" name="search">
+               <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+                <button type="submit" class="microphone-btn"><i class="fa fa-microphone"></i></button>
+            </form>
+
+        </div>
+
+        <!-- notifications -->
+
+
+        <div class="notif-bell">
+            <i class="fa fa-bell "></i>
+        </div>
+
+            <div class="notif-dot">
+                <i class="fa fa-circle"></i>
+            </div>
+
+          
+            
+        
+
+        <!-- profile-login -->
+        <div class="profile">
+
+            <div class="profile-icon">
+                <i class="fa fa-user"></i>
+            </div>
+
+        </div>
+
+
+        <div class="side-bars">
+              <a href="#slide-menu"> 
+                  <i class="material-icons">menu</i>
+                </a>
+        </div>
+</div>
+    </header> 
+
+
+    <section id="slide-menu" >
+       
+            <div class="search-bar2">
+
+                    <form class="search-bar-form">
+                       <input type="text" placeholder="Artists, Songs or podcasts" name="search">
+                       <button type="submit" class="search-btn"><i class="fa fa-search"></i></button>
+                        <button type="submit" class="microphone-btn"><i class="fa fa-microphone"></i></button>
+                    </form>
+        
+                </div>
+
+              <a href="#"> <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+
+        <div class="slidemenu">
+        <div class="queue">
+        <div class="queue-header">
+            <h2>My Playlist</h2>
+        </div>
+            <div class="small-header">
+            <p>Queue</p>
+            <div class="two-items">
+            <ul class="small-header-list">
+                <li><a href="#"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Playlists</a></li>
+                <li class="item-1"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;Favourite Songs</a></li>
+            </ul>
+            </div>
+            </div>
+          
+        </div>
+     
+        <div class="queue-list">
+                <p class=list-no>01</p>
+            <div class="list-one list-common">
+                <img src="songimages/khairiyatcrop.jpg">
+         <p class="list-music">Khairiyat</p>
+                <p class="list-artist">Arijit Singh</p>
+                <i class="fa fa-heart"></i>
+            </div>
+
+            <p class=list-no>02</p>
+            <div class="list-two list-common">
+                    <img src="songimages/sukcrop.jpg">
+                    <p class="list-music">Sukoon Mila</p>
+                    <p class="list-artist">Arijit Singh</p>
+                    <i class="fa fa-heart"></i>
+                </div>
+
+                <p class=list-no>03</p>
+                <div class="list-three list-common">
+                        <img src="songimages/tumjabpaas.jpg">
+                        <p class="list-music">Tum Jab Paas</p>
+                        <p class="list-artist">Prateek Kuhad</p>
+                        <i class="fa fa-heart"></i>
+                    </div>
+
+                    <p class=list-no>04</p>
+                    <div class="list-four list-common">
+                           
+                            <img src="songimages/samjhavan.jpg">
+                            <p class="list-music">Samjhavan</p>
+                            <p class="list-artist">Alia Bhatt</p>
+                            <i class="fa fa-heart"></i>
+                        </div>
+
+                        <p class=list-no>05</p>
+                        <div class="list-five list-common">
+                                <img src="songimages/mere sohneya.jpg">
+                                <p class="list-music">Kaise Hua</p>
+                                <p class="list-artist">Vishal Mishra</p>
+                                <i class="fa fa-heart"></i>
+                            </div>
+
+                            <p class=list-no>06</p>
+                            <div class="list-six list-common">
+                                    <img src="songimages/perfect.jpg">
+                                    <p class="list-music">Perfect</p>
+                                    <p class="list-artist">Ed Sheeran</p>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+
+                                <p class=list-no>07</p>
+                                <div class="list-seven list-common">
+                                        <img src="songimages/thunder.jpg">
+                                        <p class="list-music">Thunder</p>
+                                        <p class="list-artist">Evolve</p>
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+
+                                    <p class=list-no>08</p>
+                                    <div class="list-eight list-common">
+                                            <img src="songimages/stuckwithyou.jpg">
+                                            <p class="list-music">Stuck With You</p>
+                                            <p class="list-artist">Ariana Grande</p>
+                                            <i class="fa fa-heart"></i>
+                                        </div>
+
+                                        <p class=list-no>09</p>
+                                        <div class="list-nine list-common">
+                                                <img src="songimages/baaton.jpg">
+                                                <p class="list-music">Baato Ko Teri</p>
+                                                <p class="list-artist">Arijit Singh</p>
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+
+                                            <p class=list-no>10</p>
+                                            <div class="list-ten list-common">
+                                                    <img src="songimages/sav2.jpg">
+                                                    <p class="list-music">Savage Love</p>
+                                                    <p class="list-artist">Jason Darula</p>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                                                <p class=list-no>11</p>
+                                                <div class="list-one list-common">
+                                                    <img src="songimages/khairiyatcrop.jpg">
+                                                    <p class="list-music">Khairiyat</p>
+                                                    <p class="list-artist">Arijit Singh</p>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+                            
+                                                <p class=list-no>12</p>
+                                                <div class="list-two list-common">
+                                                        <img src="songimages/sukcrop.jpg">
+                                                        <p class="list-music">Sukoon Mila</p>
+                                                        <p class="list-artist">Arijit Singh</p>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+                            
+                                                    <p class=list-no>13</p>
+                                                    <div class="list-three list-common">
+                                                            <img src="songimages/tumjabpaas.jpg">
+                                                            <p class="list-music">Tum Jab Paas</p>
+                                                            <p class="list-artist">Prateek Kuhad</p>
+                                                            <i class="fa fa-heart"></i>
+                                                        </div>
+                            
+                                                        <p class=list-no>14</p>
+                                                        <div class="list-four list-common">
+                                                               
+                                                                <img src="songimages/samjhavan.jpg">
+                                                                <p class="list-music">Samjhavan</p>
+                                                                <p class="list-artist">Alia Bhatt</p>
+                                                                <i class="fa fa-heart"></i>
+                                                            </div>
+                            
+                                                            <p class=list-no>15</p>
+                                                            <div class="list-five list-common">
+                                                                    <img src="songimages/mere sohneya.jpg">
+                                                                    <p class="list-music">Kaise Hua</p>
+                                                                    <p class="list-artist">Vishal Mishra</p>
+                                                                    <i class="fa fa-heart"></i>
+                                                                </div>
+                            
+                                                                <p class=list-no>16</p>
+                                                                <div class="list-six list-common">
+                                                                        <img src="songimages/perfect.jpg">
+                                                                        <p class="list-music">Perfect</p>
+                                                                        <p class="list-artist">Ed Sheeran</p>
+                                                                        <i class="fa fa-heart"></i>
+                                                                    </div>
+                            
+                                                                    <p class=list-no>17</p>
+                                                                    <div class="list-seven list-common">
+                                                                            <img src="songimages/thunder.jpg">
+                                                                            <p class="list-music">Thunder</p>
+                                                                            <p class="list-artist">Evolve</p>
+                                                                            <i class="fa fa-heart"></i>
+                                                                        </div>
+                            
+                                                                        <p class=list-no>18</p>
+                                                                        <div class="list-eight list-common">
+                                                                                <img src="songimages/stuckwithyou.jpg">
+                                                                                <p class="list-music">Stuck With You</p>
+                                                                                <p class="list-artist">Ariana Grande</p>
+                                                                                <i class="fa fa-heart"></i>
+                                                                            </div>
+                            
+                                                                            <p class=list-no>19</p>
+                                                                            <div class="list-nineteen list-common">
+                                                                                    <img src="songimages/ikvaariaa.jpg">
+                                                                                    <p class="list-music">Ik Vaari Aa</p>
+                                                                                    <p class="list-artist">Arijit Singh</p>
+                                                                                    <i class="fa fa-heart"></i>
+                                                                                </div>
+                            
+                                                                                <p class=list-no>20</p>
+                                                                                <div class="list-twenty list-common">
+                                                                                        <img src="songimages/sav2.jpg">
+                                                                                        <p class="list-music">Savage Love</p>
+                                                                                        <p class="list-artist">Jason Darula</p>
+                                                                                        <i class="fa fa-heart"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </section>
+
+    <!-- main-section starts -->
+   <main>
+
+    <!-- carousel -->
+    <section id="carsl" class="section">
+
+            <div class="carousel">
+                <div class="carousel-inner">
+
+                    <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+                    <div class="carousel-item">
+                        <a href=""><img src="songimages/ts3crop.jpg"></a>
+                    </div>
+
+                    <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <a href=""><img src="songimages/cs33.jpg"></a>
+                    </div>
+
+                    <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <a href=""><img src="songimages/dua4crop.jpg"></a>
+                    </div>
+
+                    <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+                    <div class="carousel-item">
+                        <a href=""><img src="songimages/smcccrop.jpg"></a>
+                    </div>
+
+                    <label for="carousel-4" class="carousel-control prev control-1">‹</label>
+                    <label for="carousel-2" class="carousel-control next control-1">›</label>
+                    <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+                    <label for="carousel-3" class="carousel-control next control-2">›</label>
+                    <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+                    <label for="carousel-4" class="carousel-control next control-3">›</label>
+                    <label for="carousel-3" class="carousel-control prev control-4">‹</label>
+                    <label for="carousel-1" class="carousel-control next control-4">›</label>
+
+                    <ol class="carousel-indicators">
+                        <li>
+                            <label for="carousel-1" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-2" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                            <label for="carousel-3" class="carousel-bullet">•</label>
+                        </li>
+                        <li>
+                                <label for="carousel-4" class="carousel-bullet">•</label>
+                            </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+  
+
+
+    <!-- latest-release -->
+
+<section id="latest-release">
+     
+      <div class="section-heading">
+      	<h2>Latest Release <i class="fa fa-music" aria-hidden="true"></i></h2>
+      </div>
+
+    <div class="latest-release" id="latestrelease">
+                            
+                            <div class="latest-songs">
+
+                                <!-- song-1 -->
+                                <div class="latest_one">
+
+                                   <div class="latest-icon">	
+                               <img src="songimages/ic.jpg">
+                                 <a href="#music-cnt"><i class="fa fa-play-circle"></i></a>
+                                   </div> 
+                                        
+                            
+                                    <div class="latest-info-one">
+                                        <p class="latest-name">I Wanna Feel Love</p>
+                                        <p class="release-date">MARCH 20,2020</p>
+                                    </div>
+
+                                    <div class="latest-dots">
+
+                                        <div class ="ellipsis"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+
+                            <div class="latest-list">
+                                <ul class="latest-ul">
+                                    <li>  <a href="#"><i class="fa fa-play"></i>&nbsp;Play</a></li><hr>
+                                            <li><a href="#"><i class= "fa fa-heart" aria-hidden="true"></i>&nbsp;Add To Favourites</a></li><hr>
+                                            <li><a href="#"><i class= "fa fa-plus" aria-hidden="true"></i>&nbsp;Add To Queue</a></li><hr>
+                                            <li><a href="#"><i class= "fa fa-info-circle" aria-hidden="true" ></i>&nbsp;Info</a></li></ul>
+                            </div>
+
+                            </div>
+
+                            <div class="latest-time">
+                                3:40
+                            </div>
+
+                        </div>
+
+                         <!-- song-2 -->
+
+                            <div class="latest_one latest_two">
+
+                            	<div class=" latest-icon">
+                                    <img src="songimages/malangc.jpg">
+                                    <a href="#music-cnt"><i class="fa fa-play-circle"></i></a>
+                                   </div>
+                    
+                                   
+                                        <div class="latest-info-one">
+                                            <p class="latest-name">Chal Ghar Chalein</p>
+                                            <p class="release-date">APRIL 15,2020</p>
+                                        </div>
+
+                                        <div class="latest-dots">
+
+                                       <div class ="ellipsis"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+                                       
+                                <div class="latest-list">
+                                    <ul class="latest-ul">
+                                            <li>  <a href="#"><i class="fa fa-play"></i>&nbsp;Play</a></li><hr>
+                                                <li><a href="#"><i class= "fa fa-heart" aria-hidden="true"></i>&nbsp;Add To Favourites</a></li><hr>
+                                                <li><a href="#"><i class= "fa fa-plus" aria-hidden="true"></i>&nbsp;Add To Queue</a></li><hr>
+                                                <li><a href="#"><i class= "fa fa-info-circle" aria-hidden="true" ></i>&nbsp;Info</a></li></ul>
+                                </div>
+
+                                </div>
+
+                                <div class="latest-time">
+                                    3:26
+                                </div>
+
+                                </div>
+
+                                 <!-- song-3 -->
+
+                                <div class="latest_one">
+                                    
+                                	<div class="latest-icon">
+                                        <img src="songimages/letmecrop.jpg">
+                                    <a href="#music-cnt"><i class="fa fa-play-circle"></i></a>
+                                   </div>
+
+                                            <div class="latest-info-one">
+                                                <p class="latest-name">Let Me Love You</p>
+                                                <p class="release-date">MAY 26,2020</p>
+                                            </div>
+
+                                            <div class="latest-dots">
+
+                                                <div class ="ellipsis"> <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </div>
+
+                                    <div class="latest-list">
+                                        <ul class="latest-ul">
+                                                <li>  <a href="#"><i class="fa fa-play"></i>&nbsp;Play</a></li><hr>
+                                                    <li><a href="#"><i class= "fa fa-heart" aria-hidden="true"></i>&nbsp;Add To Favourites</a></li><hr>
+                                                    <li><a href="#"><i class= "fa fa-plus" aria-hidden="true"></i>&nbsp;Add To Queue</a></li><hr>
+                                                    <li><a href="#"><i class= "fa fa-info-circle" aria-hidden="true" ></i>&nbsp;Info</a></li></ul>
+                                    </div>
+
+                                    </div>
+
+                                    <div class="latest-time">
+                                        4:24
+                                    </div>
+
+                                    </div>
+
+
+                                    <!-- song-4 -->
+                                    <div class="latest_one latest_two">
+
+                                    	<div class="latest-icon">
+                                            <img src="songimages/yaari.jpg">
+                                            <a href="#music-cnt"><i class="fa fa-play-circle"></i></a>
+                                   </div>
+                            
+                                                <div class="latest-info-one">
+                                                    <p class="latest-name">Yaari</p>
+                                                    <p class="release-date">MAY 5,2020</p>
+                                                </div>
+
+                                                <div class="latest-dots">
+
+                                                    <div class ="ellipsis">  <i class="fa fa-ellipsis-h" aria-hidden="true"></i> </div>
+
+                                        <div class="latest-list">
+                                            <ul class="latest-ul">
+                                                    <li>  <a href="#"><i class="fa fa-play"></i>&nbsp;Play</a></li><hr>
+                                                        <li><a href="#"><i class= "fa fa-heart" aria-hidden="true"></i>&nbsp;Add To Favourites</a></li><hr>
+                                                        <li><a href="#"><i class= "fa fa-plus" aria-hidden="true"></i>&nbsp;Add To Queue</a></li><hr>
+                                                        <li><a href="#"><i class= "fa fa-info-circle" aria-hidden="true" ></i>&nbsp;Info</a></li>
+                                                    </ul>
+                                        </div>
+
+                                        </div>
+
+                                        <div class="latest-time">
+                                            3:53
+                                        </div>
+
+                                        </div>
+                        </div>
+                          </div>
+      </section>
+
+      <!-- popular-artist -->
+
+      <section id="popular-artist">
+      	 
+           <div class="section-heading">
+      	       <h2 class="artists-headings">Popular Artists <i class="fa fa-music" aria-hidden="true"></i></h2>
+           </div>
+
+           <div class="artist">
+
+           	  <div class="artist-image">
+           	  
+           	  	  <img src="songimages2/arijitc.jpg">
+           	  	  <a href="arijitsingh.html"><i class="fa fa-play-circle" class="animate__animated animate__bounceInDown"></i></a>
+           	  	  <div class="artist-name">
+           	  	  	  <p>Arijit Singh</p>
+           	  	  </div>
+                 	  	  
+           	  </div>
+
+           	  <div class="artist-image">
+           	  	  <img src="songimages2/darshanc.jpg">
+                       <a href="darshan-raval.html"><i class="fa fa-play-circle"></i></a>
+           	  	  <div class="artist-name">
+           	  	  	  <p>Darshan Raval</p>
+           	  	  </div>
+
+    
+           	  </div>
+
+           	  <div class="artist-image">
+           	  	  <img src="songimages2/nehac.jpg">
+           	  	  <a href="neha-kakkar.html"><i class="fa fa-play-circle"></i></a>
+           	  	  <div class="artist-name">
+           	  	  	  <p>Neha Kakkar</p>
+           	  	  </div>
+                 </div>
+                 
+
+                 <div class="artist-image">
+                    <img src="songimages2/sonuc.jpg">
+                    <a href="sonu-nigam.html"><i class="fa fa-play-circle"></i></a>
+                    <div class="artist-name">
+                          <p>Sonu Nigam</p>
+                    </div>
+                 </div>
+
+                 <div class="artist-image">
+                    <img src="songimages/zm4c.jpg">
+                    <a href="zayn malik.html"><i class="fa fa-play-circle"></i></a>
+                    <div class="artist-name">
+                          <p>Zayn Malik</p>
+                    </div>
+    
+              </div>
+    
+           	
+
+           	  <div class="artist-image">
+           	  	  <img src="songimages/camilacrop.jpg">
+                       <a href="camilla.html"><i class="fa fa-play-circle"></i></a>
+           	  	  <div class="artist-name">
+           	  	  	  <p>Camila Cabello</p>
+           	  	  </div>
+
+           	  </div>
+
+           
+          
+        
+          <div class="artist-image">
+                <img src="songimages2/justinc.jpg">
+                <a href="justin-beiber.html"><i class="fa fa-play-circle"></i></a>
+                <div class="artist-name">
+                      <p>Justin Beiber</p>
+                </div>
+
+          </div>
+
+
+          <div class="artist-image">
+                <img src="songimages/lopezcrop.jpg">
+                <a href="jennifer.html"><i class="fa fa-play-circle"></i></a>
+                <div class="artist-name">
+                      <p>Jennifer Lopez</p>
+                </div>
+
+          </div>
+
+
+          <div class="artist-image">
+            <img src="songimages2/harryc.jpg">
+            <a href="harry.html"><i class="fa fa-play-circle"></i></a>
+            <div class="artist-name">
+                  <p>Harry Styles</p>
+            </div>
+
+      </div>
+
+      
+      <div class="artist-image">
+        <img src="songimages/taylorcrop.jpg">
+        <a href="taylor.html"><i class="fa fa-play-circle"></i></a>
+        <div class="artist-name">
+              <p>Taylor Swift</p>
+        </div>
+         
+           </div>
+
+      </section>
+
+
+
+      <!-- play-station -->
+
+      <section id="play-station">
+                                    <div class="section-heading">
+                                            <h2 class="playstation-heading">Play Stations <i class="fa fa-music" aria-hidden="true"></i></h2>
+                                        </div>
+
+                              <!-- <div id="background"> -->
+                                    <div id="gallery">
+                                      <figure class="pic1">
+                                            <img src="songimages/love.jpg">
+                                        <figcaption>Love&nbsp;<i class="fa fa-play-circle"></i></figcaption>
+                                      </figure>
+                                      <figure class="pic2">
+                                            <img src="songimages/retro1c.jpg">
+                                        <figcaption>Retro&nbsp;<i class="fa fa-play-circle"></i></figcaption>
+                                      </figure>
+                                      <figure class="pic3">
+                                            <img src="songimages/workout2.jpg">
+                                        <figcaption>Workout&nbsp;<i class="fa fa-play-circle"></i></figcaption>
+                                      </figure>
+                                      <figure class="pic4">
+                                            <img src="songimages/pop.jpg">
+                                        <figcaption>Pop&nbsp;<i class="fa fa-play-circle"></i></figcaption>
+                                      </figure>
+                                      <figure class="pic5">
+                                            <img src="songimages/guitarc.jpg">
+                                        <figcaption>Rock&nbsp;<i class="fa fa-play-circle"></i></figcaption>
+                                      </figure>
+                                      <figure class="pic6">
+                                            <img src="songimages/devotion3.jpg">
+                                        <figcaption>Devotion&nbsp;<i class="fa fa-play-circle"></i></figcaption>
+                                      </figure>
+                                      <figure class="pic7">
+                                            <img src="songimages/chill2c.jpg">
+                                        <figcaption>Chill&nbsp;<i class="fa fa-play-circle"></i></figcaption>
+                                      </figure>
+                                      <figure class="pic8">
+                                            <img src="songimages/kidc.jpg">
+                                        <figcaption>Happy&nbsp;<i class="fa fa-play-circle"></i></figcaption>
+                                      </figure>
+                                    </div>
+                                  <!-- </div> -->
+                          </section>
+
+
+
+                          <!-- music-themes -->
+
+                  <section id="music-time">
+                             
+                    <div class="section-heading">
+                        <h2>Music Themes <i class="fa fa-music" aria-hidden="true"></i></h2>
+                    </div>
+
+                    <div class="row"> 
+                            <div class="column">
+                                <div class="column-img">
+                                    <div class="theme-img"> <img src="songimages/partyc.jpg" class="vertical"></div>
+                                    <p>Party&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                                </div>
+                                <div class="column-img">
+                                        <div class="theme-img"> <img src="songimages/ballooncrop.jpg"  class="horiz"></div>
+                                        <p>Birthday&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                                        </div>
+                            </div>
+                            <div class="column">
+                                    <div class="column-img">
+                                    <div class="theme-img"> <img src="songimages/roadtrip.jpg"  class="horiz"></div>
+                                    <p>Roadtrip&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                                    </div>
+                                    <div class="column-img">
+                                        <div class="theme-img"> <img src="songimages/friendscrop.jpg" class="vertical"></div>
+                                        <p>Friends&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</p>
+                                        </div>
+                            </div>
+                            <div class="column">
+                                    <div class="column-img">
+                                    <div class="theme-img"> <img src="songimages/coc.jpg" class="vertical"></div>
+                                    <p>Romance&emsp;&emsp;&emsp;&emsp;&nbsp;</p>
+                                    </div>
+                                    <div class="column-img">
+                                        <div class="theme-img"> <img src="songimages/growingupcrop.jpg" class="horiz"></div>
+                                        <p>Growing Up&emsp;&emsp;&emsp;&emsp;</p>
+                                        </div>
+                            </div>
+                            <div class="column">
+                                    <div class="column-img">
+                                    <div class="theme-img"> <img src="songimages/classicalcrop.jpg" class="horiz"></div>
+                                    <P>Classical&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</P>
+                                   </div>
+                                    <div class="column-img">
+                                        <div class="theme-img"><img src="songimages/misss.jpg"class="vertical"></div>
+                                        <p>Fashion&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+                                        </div>
+                            </div>
+                    </div>
+
+                  </section> 
+
+           
+
+
+                  <!-- latest-hindi -->
+
+        <section id="latest-hindi">
+                                <div class="section-heading">
+                                    <h2>Latest Hindi <i class="fa fa-music" aria-hidden="true"></i></h2>
+                                    
+                                </div>
+                                <div class="grid">
+                                <figure class="latest-img">
+                                    <img src="songimages/ks1.jpg">
+                                    <figcaption>
+                                        <p>Kaise Hua <br>MAY 20,2020</p>
+                                        <a href="#music-cnt">  <i class="fa fa-play-circle"></i></a>
+                                   
+                                </figcaption>
+                            </figure>
+                            <figure class="latest-img">
+                                <img src="songimages/humc.jpg">
+                                <figcaption>
+                                    <p>Hamdard<br>MAY 9,2020</p>
+                                    <a href="#music-cnt">   <i class="fa fa-play-circle"></i></a>
+                               
+                            </figcaption>
+                        </figure>
+                        <figure class="latest-img">
+                            <img src="songimages/lahore1.jpg">
+                            <figcaption>
+                                <p>Lahore<br>APRIL 5,2020</p>
+                                <a href="#music-cnt">    <i class="fa fa-play-circle"></i></a>
+                         
+                        </figcaption>
+                    </figure>
+                    <figure class="latest-img">
+                        <img src="songimages/kesari.jpg">
+                        <figcaption>
+                            <p>Teri Mitti<br>JULY 19,2020</p>
+                            <a href="#music-cnt"> <i class="fa fa-play-circle"></i></a>
+                        
+                    </figcaption>
+                </figure>                      
+                         
+            <figure class="latest-img">
+                <img src="songimages/gac.jpg">
+                <figcaption>
+                    <p>Garmi<br>MAY 20,2020</p>
+                                                            
+                    <a href="#music-cnt">    <i class="fa fa-play-circle"></i></a>
+              
+            </figcaption>
+        </figure>
+                     
+        <figure class="latest-img">
+            <img src="songimages/war.png">
+            <figcaption>
+                <p>Ghungroo<br>MAY 9,2020</p>
+                <a href="#music-cnt">  <i class="fa fa-play-circle"></i></a>
+         
+        </figcaption>
+    </figure>
+                                                          
+        <figure class="latest-img">
+            <img src="songimages/sc.jpg">
+            <figcaption>
+                <p>Sanam Re<br>MAY 9,2020</p>
+                <a href="#music-cnt">  <i class="fa fa-play-circle"></i></a>
+           
+        </figcaption>
+    </figure>
+                  
+    <figure class="latest-img">
+        <img src="songimages/tumhiho.jpg">
+        <figcaption>
+            <p>Tum Hi Ho<br>MAY 9,2020</p>
+            <a href="#music-cnt">  <i class="fa fa-play-circle"></i></a>
+      
+    </figcaption>
+</figure>
+                 
+                                </div>
+                                </section>    
+                                
+                                                              <!-- latest-english -->
+
+       <section id="latest-english">
+                                        <div class="section-heading">
+                                            <h2>Latest English <i class="fa fa-music" aria-hidden="true"></i></h2>
+                                        </div>
+                                        <div class="grid">
+                                            <figure class="latest-img">
+                                                <img src="songimages/shower.jpg">
+                                                <figcaption>
+                                                <p>Shower<br>JUNE 10,2020</p>
+                                                <a href="#music-cnt"> <i class="fa fa-play-circle"></i></a>
+                                              
+                                                </figcaption>
+                                            </figure>
+                                            <figure class="latest-img">
+                                                    <img src="songimages/senorita.jpg">
+                                                    <figcaption>
+                                                    <p>Senorita<br>MAY 20,2020</p>
+                                                    <a href="#music-cnt">   <i class="fa fa-play-circle"></i></a>
+                                                    
+                                                    </figcaption>
+                                            </figure>
+                                                <figure class="latest-img">
+                                                        <img src="songimages/perfect.jpg">
+                                                        <figcaption>
+                                                        <p>Perfect<br>MAY 9,2020</p>
+                                                        <a href="#music-cnt"> <i class="fa fa-play-circle"></i></a>
+                                                       
+                                                        </figcaption>
+                                                </figure>
+                                                    <figure class="latest-img">
+                                                            <img src="songimages/taylorcrop.jpg">
+                                                            <figcaption>
+                                                            <p>Love Story<br>APRIL 5,2020</p>
+                                                            <a href="#music-cnt"><i class="fa fa-play-circle"></i></a>
+                                                     
+                                                            </figcaption>
+                                                    </figure>
+                                                        <figure class="latest-img">
+                                                                <img src="songimages/allofme.jpg">
+                                                                <figcaption>
+                                                                <p>All Of Me<br>JULY 19,2020</p>
+                                                                <a href="#music-cnt"><i class="fa fa-play-circle"></i></a>
+                                                            
+                                                                </figcaption>
+                                                        </figure>
+                                                            <figure class="latest-img">
+                                                                    <img src="songimages/loveme.jpg">
+                                                                    <figcaption>
+                                                                    <p>Love Me<br>MARCH 12,2020</p>
+                                                                    <a href="#music-cnt"><i class="fa fa-play-circle"></i></a>
+                                                                     
+                                                                    </figcaption>
+                                                                </figure>
+                                                               
+                                                        
+                                                                            <figure class="latest-img">
+                                                                                <img src="songimages/pdate.jpg">
+                                                                                <figcaption>
+                                                                                <p>Play Date<br>JUNE 10,2020</p>
+                                                                                <a href="#music-cnt"> <i class="fa fa-play-circle"></i></a>
+                                                                                 
+                                                                               </figcaption>
+                                                                            </figure>
+
+                                                                            <figure class="latest-img">
+                                                                                    <img src="songimages/loveyou.jpg">
+                                                                                    <figcaption>
+                                                                                    <p>Love Yourself<br>MAY 20,2020</p>
+                                                                                    <a href="#music-cnt"> <i class="fa fa-play-circle"></i></a>
+                                                                                    
+                                                                                    </figcaption>
+                                                                            </figure>
+                                        </div>
+                                        </section>
+
+
+                                   
+                                    
+
+    </main> 
+     
+
+    <!-- aside -->
+
+    <aside>
+            <section id="queue">
+                <div class="queue">
+                <div class="queue-header">
+                    <h2>My Playlist</h2>
+                </div>
+                    <div class="small-header">
+                    <p>Queue</p>
+                    <div class="two-items">
+                    <ul class="small-header-list">
+                        <li><a href="#"><i class="fa fa-list" aria-hidden="true"></i>&nbsp;&nbsp;Playlists</a></li>
+                        <li class="item-1"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i>&nbsp;&nbsp;Favourite Songs</a></li>
+                    </ul>
+                    </div>
+                    </div>
+                    <!-- <div id="border"></div> -->
+                </div>
+                <div class="queue-list">
+                        <p class=list-no>01</p>
+                    <div class="list-one list-common">
+                        <img src="songimages/khairiyatcrop.jpg">
+                        <p class="list-music">Khairiyat</p>
+                        <p class="list-artist">Arijit Singh</p>
+                        <i class="fa fa-heart"></i>
+                    </div>
+
+                    <p class=list-no>02</p>
+                    <div class="list-two list-common">
+                            <img src="songimages/sukcrop.jpg">
+                            <p class="list-music">Sukoon Mila</p>
+                            <p class="list-artist">Arijit Singh</p>
+                            <i class="fa fa-heart"></i>
+                        </div>
+
+                        <p class=list-no>03</p>
+                        <div class="list-three list-common">
+                                <img src="songimages/tumjabpaas.jpg">
+                                <p class="list-music">Tum Jab Paas</p>
+                                <p class="list-artist">Prateek Kuhad</p>
+                                <i class="fa fa-heart"></i>
+                            </div>
+
+                            <p class=list-no>04</p>
+                            <div class="list-four list-common">
+                                   
+                                    <img src="songimages/samjhavan.jpg">
+                                    <p class="list-music">Samjhavan</p>
+                                    <p class="list-artist">Alia Bhatt</p>
+                                    <i class="fa fa-heart"></i>
+                                </div>
+
+                                <p class=list-no>05</p>
+                                <div class="list-five list-common">
+                                        <img src="songimages/mere sohneya.jpg">
+                                        <p class="list-music">Kaise Hua</p>
+                                        <p class="list-artist">Vishal Mishra</p>
+                                        <i class="fa fa-heart"></i>
+                                    </div>
+
+                                    <p class=list-no>06</p>
+                                    <div class="list-six list-common">
+                                            <img src="songimages/perfect.jpg">
+                                            <p class="list-music">Perfect</p>
+                                            <p class="list-artist">Ed Sheeran</p>
+                                            <i class="fa fa-heart"></i>
+                                        </div>
+
+                                        <p class=list-no>07</p>
+                                        <div class="list-seven list-common">
+                                                <img src="songimages/thunder.jpg">
+                                                <p class="list-music">Thunder</p>
+                                                <p class="list-artist">Evolve</p>
+                                                <i class="fa fa-heart"></i>
+                                            </div>
+
+                                            <p class=list-no>08</p>
+                                            <div class="list-eight list-common">
+                                                    <img src="songimages/stuckwithyou.jpg">
+                                                    <p class="list-music">Stuck With You</p>
+                                                    <p class="list-artist">Ariana Grande</p>
+                                                    <i class="fa fa-heart"></i>
+                                                </div>
+
+                                                <p class=list-no>09</p>
+                                                <div class="list-nine list-common">
+                                                        <img src="songimages/baaton.jpg">
+                                                        <p class="list-music">Baato Ko Teri</p>
+                                                        <p class="list-artist">Arijit Singh</p>
+                                                        <i class="fa fa-heart"></i>
+                                                    </div>
+
+                                                    <p class=list-no>10</p>
+                                                    <div class="list-ten list-common">
+                                                            <img src="songimages/sav2.jpg">
+                                                            <p class="list-music">Savage Love</p>
+                                                            <p class="list-artist">Jason Darula</p>
+                                                            <i class="fa fa-heart"></i>
+                                                        </div>
+                                                        <p class=list-no>11</p>
+                                                        <div class="list-one list-common">
+                                                            <img src="songimages/khairiyatcrop.jpg">
+                                                            <p class="list-music">Khairiyat</p>
+                                                            <p class="list-artist">Arijit Singh</p>
+                                                            <i class="fa fa-heart"></i>
+                                                        </div>
+                                    
+                                                        <p class=list-no>12</p>
+                                                        <div class="list-two list-common">
+                                                                <img src="songimages/sukcrop.jpg">
+                                                                <p class="list-music">Sukoon Mila</p>
+                                                                <p class="list-artist">Arijit Singh</p>
+                                                                <i class="fa fa-heart"></i>
+                                                            </div>
+                                    
+                                                            <p class=list-no>13</p>
+                                                            <div class="list-three list-common">
+                                                                    <img src="songimages/tumjabpaas.jpg">
+                                                                    <p class="list-music">Tum Jab Paas</p>
+                                                                    <p class="list-artist">Prateek Kuhad</p>
+                                                                    <i class="fa fa-heart"></i>
+                                                                </div>
+                                    
+                                                                <p class=list-no>14</p>
+                                                                <div class="list-four list-common">
+                                                                       
+                                                                        <img src="songimages/samjhavan.jpg">
+                                                                        <p class="list-music">Samjhavan</p>
+                                                                        <p class="list-artist">Alia Bhatt</p>
+                                                                        <i class="fa fa-heart"></i>
+                                                                    </div>
+                                    
+                                                                    <p class=list-no>15</p>
+                                                                    <div class="list-five list-common">
+                                                                            <img src="songimages/mere sohneya.jpg">
+                                                                            <p class="list-music">Kaise Hua</p>
+                                                                            <p class="list-artist">Vishal Mishra</p>
+                                                                            <i class="fa fa-heart"></i>
+                                                                        </div>
+                                    
+                                                                        <p class=list-no>16</p>
+                                                                        <div class="list-six list-common">
+                                                                                <img src="songimages/perfect.jpg">
+                                                                                <p class="list-music">Perfect</p>
+                                                                                <p class="list-artist">Ed Sheeran</p>
+                                                                                <i class="fa fa-heart"></i>
+                                                                            </div>
+                                    
+                                                                            <p class=list-no>17</p>
+                                                                            <div class="list-seven list-common">
+                                                                                    <img src="songimages/thunder.jpg">
+                                                                                    <p class="list-music">Thunder</p>
+                                                                                    <p class="list-artist">Evolve</p>
+                                                                                    <i class="fa fa-heart"></i>
+                                                                                </div>
+                                    
+                                                                                <p class=list-no>18</p>
+                                                                                <div class="list-eight list-common">
+                                                                                        <img src="songimages/stuckwithyou.jpg">
+                                                                                        <p class="list-music">Stuck With You</p>
+                                                                                        <p class="list-artist">Ariana Grande</p>
+                                                                                        <i class="fa fa-heart"></i>
+                                                                                    </div>
+                                    
+                                                                                    <p class=list-no>19</p>
+                                                                                    <div class="list-nine list-common">
+                                                                                            <img src="songimages/ikvaariaa.jpg">
+                                                                                            <p class="list-music">Ik Vaari Aa</p>
+                                                                                            <p class="list-artist">Arijit Singh</p>
+                                                                                            <i class="fa fa-heart"></i>
+                                                                                        </div>
+                                    
+                                                                                        <p class=list-no>20</p>
+                                                                                        <div class="list-ten list-common">
+                                                                                                <img src="songimages/sav2.jpg">
+                                                                                                <p class="list-music">Savage Love</p>
+                                                                                                <p class="list-artist">Jason Darula</p>
+                                                                                                <i class="fa fa-heart"></i>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </section>
+                                                                                </aside> 
+
+                                                                                <footer id="music-cnt">
+
+                                                                                    <div class="cross"><a href="#/"><i class="material-icons md-24">keyboard_arrow_down</i></a></div>
+                                                                            
+                                                                                    <div class="music-player-bar">
+                                                                            
+                                                                                        <div class="left-sec">
+                                                                                            <ul class="list-cnt">
+                                                                                                <li class="thumb"><a href=""><img src="songimages/tumhiho.jpg"></a></li>
+                                                                                                <li class="song-nm"><a href="">Tum Hi Ho</a>
+                                                                                                    <p>Arijit Singh</p>
+                                                                                                </li>
+                                                                                                <li><button type="button" class="ico-btn"><i class=" material-icons md-light md-18">favorite_border</i></button></li>
+                                                                                                <li><button type="button" class="ico-btn"><i class=" material-icons md-light md-18">block</i></button>
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                            
+                                                                                        <div class="middle-sec">
+                                                                                            <ul class="list-cnt">
+                                                                            
+                                                                                                <li class="no-display-br"><button type="button" class="ico-btn"><i class=" material-icons md-light md-18">shuffle</i></button></li>
+                                                                                                <li><button type="button" class="ico-btn"><i class=" material-icons md-light md-24">skip_previous</i></button></li>
+                                                                            
+                                                                                                <li class=""><button type="button" class="ico-btn play-pause"><i class="material-icons-round">
+                                                                                                            pause_circle_filled
+                                                                                                        </i></button></li>
+                                                                            
+                                                                            
+                                                                                                <li><button type="button" class="ico-btn"><i class=" material-icons md-light md-24">skip_next</i></button></li>
+                                                                                                <li class="no-display-br"><button type="button" class="ico-btn"><i class="material-icons md-light md-18">repeat</i></button>
+                                                                                                </li>
+                                                                            
+                                                                                                <div class="seeker-cnt">
+                                                                                                    <div class="seeker-out">
+                                                                                                        <div class="seeker-in"></div>
+                                                                                                    </div>
+                                                                            
+                                                                                                    <div class="seeker-knob"></div>
+                                                                            
+                                                                                                    <span class="time-left">1:12</span>
+                                                                                                    <span class="time-right">4:34</span>
+                                                                                                </div>
+                                                                            
+                                                                                            </ul>
+                                                                                        </div>
+                                                                            
+                                                                                        <!-- Seeker Breakpoint  -->
+                                                                            
+                                                                                        <div class="seeker-cnt-br">
+                                                                                            <div class="seeker-out">
+                                                                                                <div class="seeker-in"></div>
+                                                                                            </div>
+                                                                            
+                                                                                            <div class="seeker-knob">
+                                                                            
+                                                                                            </div>
+                                                                            
+                                                                                            <span class="time-left-br">1:12</span>
+                                                                            
+                                                                                            <span class="time-right-br">4:34</span>
+                                                                                        </div>
+                                                                            
+                                                                            
+                                                                                        <div class="right-sec">
+                                                                                            <ul class="list-cnt">
+                                                                                                <li><button type="button" class="ico-btn"><i class=" material-icons md-light md-24">playlist_play</i></button></li>
+                                                                                                <li><button type="button" class="ico-btn"><i class=" material-icons md-light md-18">devices</i></button>
+                                                                                                </li>
+                                                                                                <li class=""><button type="button" class="ico-btn volm-ico"><i class=" material-icons md-light md-18">volume_up</i></button>
+                                                                                                </li>
+                                                                            
+                                                                                                <li>
+                                                                                                    <div class="volm-cnt">
+                                                                                                        <div class="volm-out">
+                                                                                                            <div class="volm-in"></div>
+                                                                                                        </div>
+                                                                            
+                                                                                                        <div class="volm-knob">
+                                                                            
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </li>
+                                                                                                <li class="expand-btn"><button type="button" class="ico-btn"><i class="fa fa-compress"></i></button></li>
+                                                                            
+                                                                                            </ul>
+                                                                            
+                                                                                            <!-- Right Section Breakpoint -->
+                                                                            
+                                                                                            <div class="right-sec-br">
+                                                                                                <div class="left-arrow"><i class="material-icons">arrow_left</i></div>
+                                                                                                <ul class="list-cnt-br">
+                                                                                                    <li><button type="button" class="ico-btn"><i class=" material-icons md-light md-24">playlist_play</i></button></li>
+                                                                                                    <li><button type="button" class="ico-btn"><i class=" material-icons md-light md-18">devices</i></button>
+                                                                                                    </li>
+                                                                                                    <li class=""><button type="button" class="ico-btn volm-ico"><i class=" material-icons md-light md-18">volume_up</i></button>
+                                                                                                    </li>
+                                                                            
+                                                                                                    <li style="margin-bottom: 5px;">
+                                                                                                        <div class="volm-cnt">
+                                                                                                            <div class="volm-out">
+                                                                                                                <div class="volm-in"></div>
+                                                                                                            </div>
+                                                                            
+                                                                                                            <div class="volm-knob">
+                                                                            
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </li>
+                                                                                                    <li class="expand-btn"><button type="button" class="ico-btn"><i class="fa fa-compress"></i></button></li>
+                                                                            
+                                                                                                </ul>
+                                                                                            </div>
+                                                                                        </div>
+                                                                            
+                                                                                    </div>
+                                                                                </footer>
+                                    
+                                    
+                                    
+
+<!-- completed -->
+            
+</body>
+</html>
